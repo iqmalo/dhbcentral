@@ -1,0 +1,181 @@
+$primary: #e2bb1f;
+
+#contact::before {
+    content: '';
+    display: block;
+    height:      60px;
+    margin-top: -60px;
+    visibility: hidden;
+  }
+
+
+.contact-container{
+    height:90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $primary;
+    h2{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        padding-bottom: 20px;
+    }
+    h5{
+        padding: 0 45px;
+        margin: 0;
+    }
+    .contact-wrapper{
+        height: 70%;
+        width: 80%;
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        border-radius: 20px;
+        padding-bottom: 250px;
+        margin-top: 10px;
+        .contact-card{
+            height: 80%;
+            width: 90%;
+            .name-wrapper{
+                height: 70px;
+                width: auto;
+                label{
+                    font-weight: bolder;
+                }
+                .input-name{
+                    width: 100%;
+                    border-radius: 5px;
+                    padding-left: 10px;
+                }
+            }
+            .email-wrapper{
+                height: 70px;
+                label{
+                    font-weight: bolder;
+                }
+                .input-email{
+                    width: 100%;
+                    border-radius: 5px;
+                    padding-left: 10px;
+                }
+            }
+            .message-wrapper{
+                height: auto;
+                label{
+                    font-weight: bolder;
+                }
+                .input-message{
+                    width: 100%;
+                    border-radius: 5px;
+                    padding-left: 10px;
+                }
+            }
+            .btn-cta{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 60px;
+                button{
+                    background-color: yellow;
+                    width: 100px;
+                    border-radius: 10px;
+                    font-weight: bolder;
+
+                    &:hover{
+                        background-color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 720px){
+    .contact-container{
+        height: 70vh;
+        h2{
+            font-size: 2.5rem;
+        }
+        h5{
+            padding: 0 80px;
+        }
+        .contact-wrapper{
+            padding: 0 0 50px 0;
+            height: 50vh;
+            .btn-cta{
+                transform: translateY(-10px);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .contact-container{
+        height: 60vh;
+        h2{
+            font-size: 2.5rem;
+        }
+        h5{
+            padding: 0;
+            margin-bottom: 50px;
+        }
+        .contact-wrapper{
+            height: 40vh;
+            padding: 0;
+
+            .btn-cta{
+                transform: translateY(-10px);
+            }
+        }
+        .btn-cta{
+            button{
+                width: 350px;
+                font-size: 1.5rem;
+                transform: translateY(10px);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .contact-container{
+        position: relative;
+        float: right;
+        height: 840px;
+        width: 50%;
+        padding-bottom: 30px;
+        h2{
+            font-size: 5rem;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        h5{
+            padding: 0 40px;
+            text-align: center;
+        }
+        .contact-wrapper{
+            height: 550px;
+            margin-top: -20px;
+            .contact-card{
+                .btn-cta{
+                    button{
+                        font-weight: lighter;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px){
+    #menu::before {
+        content: '';
+        display: block;
+        height:      75px;
+        margin-top: -75px;
+        visibility: hidden;
+      }
+}

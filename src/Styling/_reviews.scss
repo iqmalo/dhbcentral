@@ -1,0 +1,258 @@
+$primary: #e2bb1f;
+
+.reviews-title{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    transform: translateY(50px);
+    h4{
+        color: white;
+        margin: 0;
+        padding-top: 15px;
+        text-align: center;
+    }
+}
+
+.reviews-container{
+    background-color: black;
+    position: relative;
+    height: 60vh;
+    width: 101vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .reviews-wrapper{
+        width: 85%;
+        height: 80%;
+        background-color: $primary;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .reviews-img{
+            img{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                border: 8px solid $primary;
+            }
+        }
+            h5{
+                font-size: 1.5rem;
+                font-weight: bolder;
+            }
+            .reviews-stars{
+                img{
+                height: 50px;
+                width: auto;
+                }
+            }
+            .reviews-quote-top{
+                align-self: flex-start;
+                padding-left: 30px;
+                img{
+                height: auto;
+                width: 60px;
+                }
+            }
+            h6{
+                font-size: 1rem;
+                padding: 20px 40px;
+                line-height: 1.5;
+            }
+            .reviews-quote-bottom{
+                align-self: flex-end;
+                padding-right: 30px;
+                img{
+                height: auto;
+                width: 60px;
+                transform: translateY(-40px) rotate(180deg);
+                }
+            }
+        
+    }
+    
+}
+
+@media screen and (min-width: 720px){
+    #reviews::before {
+        content: '';
+        display: block;
+        height:      30px;
+        margin-top: -30px;
+        visibility: hidden;
+      }
+        h4{
+            font-size: 2.5rem;
+        }
+        .reviews-container{
+            height: 80vh;
+            .reviews-wrapper{
+                margin-top: 80px;
+                .reviews-img{
+                    img{
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;
+                        border: 15px solid $primary;
+                        transform: translateY(-120px);
+                    }
+                }
+                h6{
+                    font-size: 1.5rem;
+                }
+                h5{
+                    transform: translateY(-80px);
+                }
+                .reviews-stars{
+                    transform: translateY(-40px);
+                }
+            }
+        }
+}
+
+@media screen and (min-width: 1024px){
+    h4{
+        padding-top: 30px !important;
+    }
+    .reviews-container{
+        height: 70vh;
+        .reviews-wrapper{
+            margin: 150px 0 100px 0;
+            padding: 0 30px;
+            .reviews-img{
+                img{
+                    transform: translateY(-50px);
+                }
+            }
+            h5{
+                transform: translateY(-20px);
+                font-size: 2rem;
+            }
+            .reviews-stars{
+                img{
+                height: 100px;
+                }
+            }
+            .reviews-quote-top{
+                img{
+                width: 100px;
+                }
+            }
+            h6{
+                font-size: 2rem;
+                padding: 20px 40px;
+                line-height: 1.5;
+            }
+            .reviews-quote-bottom{
+                img{
+                width: 100px;
+                margin-bottom: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1366px){
+    #reviews::before {
+        content: '';
+        display: block;
+        height:      0px;
+        margin-top: -0px;
+        visibility: hidden;
+      }
+    .reviews-title{
+        position: relative;
+        margin-top: 50%;
+    h4{
+        padding-top: 30px !important;   
+        font-size: 5rem;
+    }
+}
+    .reviews-container{
+        height: auto;
+        padding: 0 50px 0 15px;
+        .reviews-wrapper{
+            margin-top: 80px;
+            display: grid;
+            grid-template-columns: auto auto;
+            .reviews-img{
+                align-items: center;
+                img{
+                    margin-left: 60px;
+                }
+            }
+            h5{
+                font-size: 2rem;
+                text-align: center;
+            }
+            .reviews-stars{
+                img{
+                height: 100px;
+                transform: translateY(-10%);
+                }
+            }
+            .reviews-quote-top{
+                img{
+                width: 100px;
+                transform: translateY(-350%);
+                margin-right: 500px;
+                }
+            }
+            h6{
+                transform: translateY(35%);
+                font-size: 1.5rem;
+                padding: 20px 40px;
+                line-height: 1.5;
+                grid-column: 2/4;
+                grid-row: 1/3;
+            }
+            .reviews-quote-bottom{
+                img{
+                width: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .reviews-title{
+        margin-top: 35%;
+    h4{
+        font-size: 5rem;   
+    }
+}
+.reviews-container{
+    .reviews-wrapper{
+        .reviews-img{
+            img{
+                margin-left: 18%;
+            }
+        }
+    }
+}
+}
+
+@media screen and (min-width:1920px){
+    .reviews-title{
+        margin-top: 30%;
+    h4{
+        font-size: 5rem;   
+    }
+}
+    .reviews-container{
+        .reviews-wrapper{
+            .reviews-quote-bottom{
+                img{
+                width: 100px;
+                margin-left: 70%;
+                }
+            }
+        }
+    }
+}

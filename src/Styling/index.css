@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-container {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-container .logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
+  width: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+}
+
+.nav-container .logo-wrapper .logo-dhb {
+  color: #9F800A;
+  margin-left: 5vw;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.nav-container .logo-wrapper .logo-dhb:hover {
+  color: #bea026;
+  cursor: pointer;
+}
+
+.nav-container .logo-wrapper .logo-dhb a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-container .hamburger-icon {
+  height: 10vh;
+  width: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-container .hamburger-icon .ham {
+  width: 30%;
+  height: 30%;
+  cursor: pointer;
+  margin-left: 45%;
+}
+
+.nav-container .hamburger-icon .ham:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.nav-links {
+  background-color: black;
+  top: 9vh;
+  width: 100%;
+  height: 91vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 200px;
+  z-index: 100;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: absolute;
+}
+
+.nav-links a {
+  color: #9F800A;
+  text-decoration: none !important;
+  font-size: 45px;
+}
+
+.nav-links a:hover {
+  color: #bea026;
+}
+/*# sourceMappingURL=index.css.map */

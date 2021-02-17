@@ -1,0 +1,179 @@
+#findus::before {
+    content: '';
+    display: block;
+    height:      60px;
+    margin-top: -60px;
+    visibility: hidden;
+  }
+
+.find-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    h2{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        padding-top: 20px;
+    }
+    h5{
+        padding: 0 40px;
+        span{
+            color: $primary;
+            font-weight: bolder;
+        }
+    }
+    .find-wrapper{
+        margin-top: 20px;
+        height: 80%;
+        width: 80%;
+        iframe{
+            height: 400px;
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 2px 5px 10px black;  
+
+        }
+        .btn-container{
+            height: 150px;
+            width: 100%;
+            display: flex;
+            margin-top: 30px;
+            .btn-wrapper{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                .gmap{
+                    height: 80%;
+                    width: 80%;
+                    border-radius: 50%;
+                    border: none;
+                    margin-top: 7px;
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        
+                        &:hover{
+                            filter: saturate(2);
+                        }
+                    }
+                }
+            }
+            .btn-wrapper2{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                .waze{
+                    height: 80%;
+                    width: 80%;
+                    border-radius: 50%;
+                    padding: 0;
+                    border: none;
+                    img{
+                        width: 135px;
+                        height: 135px;
+                        border-radius: 100%;
+
+                        &:hover{
+                            filter: saturate(2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 720px){
+    #findus::before {
+        content: '';
+        display: block;
+        height:      75px;
+        margin-top: -75px;
+        visibility: hidden;
+      }
+    .find-container{
+    h2{
+        font-size: 2.5rem;
+    }
+    h5{
+        padding: 0 80px;
+   }
+    .btn-container{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        .btn-wrapper{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            .gmap{
+                height: 80%;
+                width: 80%;
+                border: none;
+                margin-top: 7px;
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+        .btn-wrapper2{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            .waze{
+                height: 80%;
+                width: 80%;
+                border-radius: 50%;
+                padding: 0;
+                border: none;
+                img{
+                    width: 135px;
+                    height: 135px;
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1024px){
+    #findus::before {
+        content: '';
+        display: block;
+        height:      105px;
+        margin-top: -105px;
+        visibility: hidden;
+      }
+      .find-container{
+      h2{
+          font-size: 2.5rem;
+      }
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .find-container{
+        position: relative;
+        width: 50%;
+        top: 30px;
+        float: left;
+        h2{
+            font-size: 5rem;
+            margin-bottom: 30px;
+        }
+        h5{
+            text-align: center;
+        }
+    }
+}
