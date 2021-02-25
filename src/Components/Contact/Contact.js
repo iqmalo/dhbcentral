@@ -9,7 +9,7 @@ const Contact = () => {
             <h5>If you want to collaborate or tell us that our food is mediocre, fell free to contact us!</h5>
                 <div className="contact-wrapper">
                     <div className="contact-card">
-                        <form action="POST" data-netlify="true">
+                        <form name= "form-contact" method="POST" data-netlify="true">
                             <div className="name-wrapper">
                                 <label htmlFor="">Name</label>
                                 <input className="input-name" type="text" placeholder="Elon Musk" name="name"/>
