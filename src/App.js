@@ -8,6 +8,7 @@ import FindUs from "./Components/FindUs/FindUs.js"
 import Contact from "./Components/Contact/Contact.js"
 import Footer from "./Components/Footer/Footer.js"
 import Loyalty from "./Components/Loyalty/Loyalty.js"
+import Pantry from "./Components/Pantry/Pantry.js"
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Hero />
     <Story />
     <Menu />
+    <Pantry />
     <Reviews />
     <FindUs />
     <Contact />

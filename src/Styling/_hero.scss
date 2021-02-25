@@ -41,17 +41,24 @@ align-items: center;
 justify-content: center;
     .btn-cta{
         border-radius: 10px;
-        background-color: $primary;
+        background-color: #e25a1f;
         padding: 2px 20px;
         font-size: 1rem;
         box-shadow: 10px 5px 5px rgb(44, 44, 44);
+        color: white;
 
         &:hover{
             background-color:  #ffdf4e;
+            color: black;
         }
             .whatsapp{
                 width: 20px;
                 height: 20px;
+                filter: invert(100);
+
+                &:hover{
+                    filter: none;
+                }
                 }
             
     }

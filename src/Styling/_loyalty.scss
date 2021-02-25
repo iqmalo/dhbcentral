@@ -1,18 +1,20 @@
+
 .loyalty-container{
-    height: 200vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center; 
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     z-index: 50;
     .btn-exit{
-        position: absolute;
-        right: 20px;
-        top: 20px;
+        position: fixed;
+        right: 30px;
+        top: 40px;
+        z-index: 20;
         button{
             background: none;
             border: none;
@@ -32,12 +34,14 @@
         align-items: center;
         justify-content: center; 
         flex-direction: column;   
-        height: 70%;
+        height: 100%;
         width: 100%;
+        position: relative;
         .loyalty-card{
             text-align: center;
             position: absolute;
-            top: 100px;
+            top: 15%;
+            z-index: 1;
             img{
                 width: 80%;
                 box-shadow: 0 10px 10px black;
@@ -49,7 +53,8 @@
             width: 90vw;
             border-radius: 10px;
             padding: 60px 30px;
-            margin-bottom: 180%;
+            top: 35%;
+            position: absolute;
             .name-wrapper{
                 label{
                     margin-right: 4%;
@@ -91,7 +96,7 @@
     .loyalty-container{
         .loyalty-wrapper{
             .loyalty-form{
-                margin-bottom: 130%;
+                top: 40%;
             }
         }
     }
@@ -101,7 +106,8 @@
     .loyalty-container{
         .loyalty-wrapper{
             .loyalty-form{
-                margin-bottom: 100%;
+                top: 40%;
+                height: 55vh;
             }
         }
     }
@@ -111,18 +117,26 @@
     .loyalty-container{
         .loyalty-wrapper{
             .loyalty-form{
-                margin-bottom: 80%;
+                height: 55vh;
+                top: 38%;
+            
+            .btn-cta{
+                margin-top: 15px;
+                button{
+                    width: auto;
+                }
             }
         }
     }
 }  
+}
 
 
 @media screen and (min-width: 720px){
     .loyalty-container{
         .loyalty-wrapper{
             .loyalty-form{
-                margin-top: 95%;
+                top: 53%;
                 }
             }
         }
@@ -132,7 +146,10 @@
         .loyalty-container{
             .loyalty-wrapper{
                 .loyalty-form{
-                    margin-top: 75%;
+                    top: 52%;
+                    .font-wrapper{
+                        text-align: center;
+                    }
                     }
                 }
             }
@@ -140,46 +157,44 @@
 
         @media screen and (min-width: 1366px){
             .loyalty-container{
-                height: 300vh;
-                .btn-exit{
-                    right: 40px;
-                    top: 40px;
-                    transform: scale(2);
-                }
                 .loyalty-wrapper{
+                    flex-direction: row;
+                    height: auto;
+                    top: -20%;
                     .loyalty-card{
+                        left: 10%;
+                        text-align: start;
+                        width: auto;
+                        z-index: 0;
                         img{
-                            width: 50%;
+                            width: 40%;
                         }
                     }
                     .loyalty-form{
-                        margin-top: 70%;
-                        width: 60%;
-                        height: 60vh;
+                        width: 40%;
+                        right: 10%;
+                        .name-wrapper{
+                            label{
+                            }
+                            .input-name{
+                            }
+                            }
+                        .email-wrapper{
+                            label{
+                            }
+                            .input-email{
+                            }
                         }
+                        .btn-cta{
+                            button{
+            
+                                &:hover{
+                                }
+                            }
+                        }
+                    }
                     }
                 }
             }
 
-            @media screen and (min-width: 1440px){
-                .loyalty-container{
-                    height: 300vh;
-                    .btn-exit{
-                        right: 40px;
-                        top: 40px;
-                        transform: scale(2);
-                    }
-                    .loyalty-wrapper{
-                        .loyalty-card{
-                            img{
-                                width: 50%;
-                            }
-                        }
-                        .loyalty-form{
-                            margin-top: 120%;
-                            width: 60%;
-                            height: 60vh;
-                            }
-                        }
-                    }
-                }
+

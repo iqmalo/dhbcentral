@@ -7,20 +7,21 @@ const Loyalty = () => {
     const [appeared, setAppeared] = useState("false");
 
     function handleClick(){
-        setAppeared(!appeared)
+        setAppeared(!appeared)  
     }
 
     useEffect(() => {
         const timeout = setTimeout(() => {
-            setAppeared(!appeared)
-         }, 3000);
+            setAppeared(!appeared)    
+         }, 5000);
 
          return () => clearTimeout(timeout);
-  },[]);
+        },[]);
 
     return (
         <>
         {!appeared && (
+            <section id="loyalty">
             <div className="loyalty-container">
             <div className="btn-exit">
                 <button onClick={handleClick}><img src={exit} alt=""/></button>
@@ -50,6 +51,7 @@ const Loyalty = () => {
                     </div>
                 </div>
             </div>
+            </section>
             )}
         </>
     )

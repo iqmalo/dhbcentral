@@ -3,10 +3,10 @@ $primary: #e2bb1f;
 .story-container{
     height: auto;
     width: 100%;
-    background: linear-gradient(yellow, $primary);
+    // background: linear-gradient(yellow, $primary);
     box-shadow: 0 5px 15px black;
     // background-color: $primary;
-    // background-color: yellow;
+    background-color: yellow;
     position: relative;
     transform: translateY(70px);
     // &:hover{
@@ -17,7 +17,16 @@ $primary: #e2bb1f;
     h4{
         text-align: center;
         padding-top: 30px;
-        font-weight: bolder;
+        // font-weight: bolder;
+        letter-spacing: 2px;
+        font-family: 'Monoton', cursive;
+        color: rgba(241, 136, 37, 0.959);
+    
+    }
+    .bertiga{
+        // transform: translateY(-40px);
+        margin:0;
+        margin-top: -30px;
     }
     .story-img-wrapper{
         display: flex;

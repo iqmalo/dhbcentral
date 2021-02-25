@@ -6,7 +6,8 @@ export default function Story() {
     return (
             <section id="story">
                 <div className="story-container">
-                    <h4>OUR STORY</h4>
+                    <h4>CERITA KAMI</h4>
+                    <h4 className="bertiga">BERTIGA</h4>
                     <div className="story-img-wrapper">
                         <img src={story} alt="" className="story-img"/>
                     </div>

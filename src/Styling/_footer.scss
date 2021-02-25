@@ -72,3 +72,18 @@
         }
     }
 }
+
+@media screen and (max-height: 800px) and (max-width: 450px){
+    .footer-container{
+        position: relative;
+        height: auto;
+        padding-top: 5%;
+        .footer-wrapper{
+            .footer-items{
+            }
+            .footer-dhb{
+                padding-top: 5%;
+            }
+        }
+    }
+}

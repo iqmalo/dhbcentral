@@ -113,38 +113,43 @@ $primary: #e2bb1f;
     .nav-container{
     button{
     .ham{
-    display: none !important;
+    display: block;
+    top: 30px;
+    right: 30px;
 }
 }
 .menu-container-desktop{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    .link-holder{
-        margin-left: 70px;
-        a{
-            text-decoration: none;
-            color:inherit;
-            margin: 0;
-            white-space: nowrap;
-            padding: 0 15px;
+    // display: flex;
+    // justify-content: flex-end;
+    // width: 100%;
+    // .link-holder{
+    //     margin-left: 70px;
+    //     a{
+    //         text-decoration: none;
+    //         color:inherit;
+    //         margin: 0;
+    //         white-space: nowrap;
+    //         padding: 0 15px;
   
 
-            &:hover{
-            border-radius: 50px;
-            }
+    //         &:hover{
+    //         border-radius: 50px;
+    //         }
 
-            &:active{
-            color: white;
-            }
-        }
-    }
+    //         &:active{
+    //         color: white;
+    //         }
+    //     }
+    // }
+
+    display: none;
 }
 }
 }
 
 @media screen and (min-width:1024px) {
-        .logo-wrapper{
+    .nav-container{    
+    .logo-wrapper{
             .logo-dhb{
                 img{
                     transform: translateY(-6px);
@@ -154,11 +159,12 @@ $primary: #e2bb1f;
                 }
             }
         } 
-    } 
-    
+     
+    button{
     .ham {
-        display: none;
-    }   
+        display: none !important;
+    } 
+}  
 
     .menu-container-desktop{
         width: 100%;
@@ -171,8 +177,9 @@ $primary: #e2bb1f;
         a {
             text-decoration: none;
             color:inherit;
-            padding: 7px 20px;
+            margin: 0 20px;
             margin-right: 10px;
+            white-space: pre;
 
             &:hover{
                 background-color: $primary;
@@ -187,6 +194,8 @@ $primary: #e2bb1f;
         }
     }
 }
+}
+}
 
 @media screen and (min-width:1366px) {
 .nav-container{
@@ -195,7 +204,7 @@ $primary: #e2bb1f;
     a {
         text-decoration: none;
         color:inherit;
-        padding: 7px 40px;
+        padding: 7px 20px;
         margin-right: 10px;
     }
 }

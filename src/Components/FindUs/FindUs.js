@@ -7,7 +7,7 @@ const FindUs = () => {
         // <>
           <section id="findus">
               <div className="find-container">
-              <h2>FIND US!</h2>
+              <h2>MANAA?</h2>
               <h5>We're located at Rasta @ TTDI! Look for a <span>yellow</span> food truck, say Hello to us!</h5>
                   <div className="find-wrapper">
                       <div className="find-img-wrapper">

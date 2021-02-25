@@ -8,7 +8,8 @@ const Menu = () => {
         <>
             <section id = "menu">
                 <div className="menu-container">
-                <h4>MENU</h4>
+                <h4>PRODUKS</h4>
+                <h4 className="foodtrux">Foodtrux</h4>
                     <div className="menu-wrapper">
                         <div className="menu-items">
                             {menudata.map(menuItem =>(
