@@ -51,7 +51,7 @@
                 .gmap{
                     height: 80%;
                     width: 80%;
-                    border-radius: 50%;
+                    // border-radius: 50%;
                     border: none;
                     margin-top: 7px;
                     background: none;
@@ -60,7 +60,6 @@
                     img{
                         width: 100px;
                         height: 100px;
-                        -webkit-appearance: none;
                         
                         &:hover{
                             filter: saturate(2);
@@ -76,7 +75,7 @@
                 .waze{
                     height: 80%;
                     width: 80%;
-                    border-radius: 50%;
+                    // border-radius: 50%;
                     padding: 0;
                     border: none;
                     background: none;
@@ -86,7 +85,6 @@
                         width: 135px;
                         height: 135px;
                         border-radius: 100%;
-                        -webkit-appearance: none;
 
                         &:hover{
                             filter: saturate(2);
