@@ -49,8 +49,8 @@
                 display: flex;
                 justify-content: center;
                 .gmap{
-                    height: 80%;
-                    width: 80%;
+                    height: auto;
+                    width: auto;
                     border-radius: 0;
                     border: none;
                     margin-top: 7px;
@@ -61,6 +61,7 @@
                     img{
                         width: 100px;
                         height: 100px;
+                        margin-top: 12%;
                         
                         &:hover{
                             filter: saturate(2);
@@ -74,8 +75,8 @@
                 display: flex;
                 justify-content: center;
                 .waze{
-                    height: 80%;
-                    width: 80%;
+                    height: auto;
+                    width: auto;
                     border-radius: 0;
                     padding: 0;
                     border: none;
