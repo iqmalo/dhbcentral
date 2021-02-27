@@ -6,6 +6,22 @@
     <title> DHB Central</title>
   </head>
   <body>
+
+    <form name = "form-contact" netlify netlify-honeypot="bot-field" action="/" hidden>
+      <div className="name-wrapper">
+        <label htmlFor="">Name</label>
+        <input className="input-name" type="text" placeholder="Elon Musk" name="name"/>
+    </div>
+    <div className="email-wrapper">
+    <label htmlFor="">E-mail</label>
+        <input className="input-email" type="email" placeholder="elonmusk@dhbcentral.com" name="email" />
+    </div>
+    <div className="message-wrapper">
+    <label htmlFor="">Message</label>
+        <textarea className="input-message" id="" cols="30" rows="10" name="message"></textarea>
+    </div>
+    </form>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
