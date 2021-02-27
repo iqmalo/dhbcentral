@@ -63,6 +63,20 @@ justify-content: center;
             
     }
 }
+.btn-wrapper-2{
+    text-align: center;
+    margin-top: 20px;
+    .btn-cta-2{
+        background-color: $primary;
+        border-radius: 10px;
+        padding: 5px 10px;
+        box-shadow: 10px 5px 10px black;
+
+        &:hover{
+            background-color:  red;
+        }
+    }
+}
 }
 
 @media screen and (min-width: 720px){
@@ -81,6 +95,11 @@ justify-content: center;
         .btn-cta{
             font-size: 1.5rem !important;
 }
+}
+.btn-wrapper-2{
+    .btn-cta-2{
+        font-size: 1.5rem;
+    }
 }
 }
 
@@ -127,6 +146,12 @@ justify-content: center;
            width: 30px !important;
            height: 30px !important;
            }
+        }
+    }
+    .btn-wrapper-2{
+        .btn-cta-2{
+            margin-top: 5%;
+            font-size: 2.5rem;
         }
     }
 }

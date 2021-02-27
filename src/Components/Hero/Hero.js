@@ -13,6 +13,7 @@ import img9 from "../../Images/Content/9.png"
 import img10 from "../../Images/Content/10.png"
 import img11 from "../../Images/Content/11.png"
 import font from "../../Images/Content/font.png"
+import {Link} from "react-router-dom"
 
 
 
@@ -113,6 +114,11 @@ export default function Hero() {
 <h5>They say you are what you eat, so why don’t you be a DHB?</h5>
 <div className="btn-wrapper">
 <a href="https://wa.link/buyo4d"><button className="btn-cta"><img className= "whatsapp"  src= {whatsapp} alt=""/> Order Now!</button></a>
+</div>
+<div className="btn-wrapper-2">
+<Link to="seni">
+<button className="btn-cta-2">DO NOT CLICK HERE!</button>
+</Link>
 </div>
 </div> 
 </section> 
