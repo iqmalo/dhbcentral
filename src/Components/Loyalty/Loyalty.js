@@ -35,14 +35,15 @@ const Loyalty = () => {
                             <h4>Join our cult and get 20% off on your first purchase!</h4>
                             </div>
                    
-                        <form action="">
+                        <form method="POST" name = "cult-form" data-netlify ="true">
+                        <input type="hidden" name="form-name-2" value="cult-form"/>
                             <div className="name-wrapper">
                                 <label htmlFor="">Name</label>
-                                <input className="input-name" type="text" placeholder="Elon Musk"/>
+                                <input className="input-name" type="text" placeholder="Elon Musk" name="name"/>
                             </div>
                             <div className="email-wrapper">
                             <label htmlFor="">E-mail</label>
-                                <input className="input-email" type="email" placeholder="elonmusk@dhbcentral.com" />
+                                <input className="input-email" type="email" placeholder="elonmusk@dhbcentral.com" name = "email" />
                             </div>
                             <div className="btn-cta">
                                 <button>Submit!</button>
