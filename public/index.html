@@ -7,6 +7,7 @@
   </head>
   <body>
 
+    <!-- form for contact netlify -->
     <form name = "form-contact" netlify netlify-honeypot="bot-field" hidden>
       <div className="name-wrapper">
         <label htmlFor="">Name</label>
@@ -19,6 +20,18 @@
     <div className="message-wrapper">
     <label htmlFor="">Message</label>
         <textarea className="input-message" id="" cols="30" rows="10" name="message"></textarea>
+    </div>
+    </form>
+
+    <!-- form for subscription netlify -->
+    <form name = "cult-form" netlify netlify-honeypot="bot-field" hidden>
+      <div className="name-wrapper">
+        <label htmlFor="">Name</label>
+        <input className="input-name" type="text" placeholder="Elon Musk" name="name"/>
+    </div>
+    <div className="email-wrapper">
+    <label htmlFor="">E-mail</label>
+        <input className="input-email" type="email" placeholder="elonmusk@dhbcentral.com" name = "email" />
     </div>
     </form>
 
