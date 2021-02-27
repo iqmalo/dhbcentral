@@ -36,7 +36,7 @@ const Loyalty = () => {
                             </div>
                    
                         <form method="POST" name = "cult-form" data-netlify ="true">
-                        <input type="hidden" name="form-name-2" value="cult-form"/>
+                        <input type="hidden" name="form-name" value="cult-form"/>
                             <div className="name-wrapper">
                                 <label htmlFor="">Name</label>
                                 <input className="input-name" type="text" placeholder="Elon Musk" name="name"/>
