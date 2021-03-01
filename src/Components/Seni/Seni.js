@@ -1,27 +1,27 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Carousel } from "react-bootstrap"
-import img1 from "../../Images/Poster/img1.png";
-import img2 from "../../Images/Poster/img2.png";
-import img3 from "../../Images/Poster/img3.png";
-import img4 from "../../Images/Poster/img4.png";
-import img5 from "../../Images/Poster/img5.png";
-import img6 from "../../Images/Poster/img6.png";
-import img7 from "../../Images/Poster/img7.png";
-import img8 from "../../Images/Poster/img8.png";
-import img9 from "../../Images/Poster/img9.png";
-import img10 from "../../Images/Poster/img10.png";
-import img11 from "../../Images/Poster/img11.png";
-import img12 from "../../Images/Poster/img12.png";
-import img13 from "../../Images/Poster/img13.png";
-import img14 from "../../Images/Poster/img14.png";
-import img15 from "../../Images/Poster/img15.png";
-import img16 from "../../Images/Poster/img16.png";
-import img17 from "../../Images/Poster/img17.png";
-import img18 from "../../Images/Poster/img18.png";
-import img19 from "../../Images/Poster/img19.png";
-import img20 from "../../Images/Poster/img20.png";
-import img21 from "../../Images/Poster/img21.png";
+import IMG1 from "../../Images/Poster/IMG 1.jpg";
+import IMG2 from "../../Images/Poster/IMG 2.jpg";
+import IMG3 from "../../Images/Poster/IMG 3.jpg";
+import IMG5 from "../../Images/Poster/IMG 5.jpg";
+import IMG6 from "../../Images/Poster/IMG 6.jpg";
+import IMG7 from "../../Images/Poster/IMG 7.jpg";
+import IMG8 from "../../Images/Poster/IMG 8.jpg";
+import IMG9 from "../../Images/Poster/IMG 9.jpg";
+import IMG10 from "../../Images/Poster/IMG 10.jpg";
+import IMG11 from "../../Images/Poster/IMG 11.jpg";
+import IMG12 from "../../Images/Poster/IMG 12.jpg";
+import IMG14 from "../../Images/Poster/IMG 14.jpg";
+import IMG15 from "../../Images/Poster/IMG 15.jpg";
+import IMG16 from "../../Images/Poster/IMG 16.jpg";
+import IMG17 from "../../Images/Poster/IMG 17.jpg";
+import IMG18 from "../../Images/Poster/IMG 18.jpg";
+import IMG19 from "../../Images/Poster/IMG 19.jpg";
+import IMG20 from "../../Images/Poster/IMG 20.jpg";
+import IMG21 from "../../Images/Poster/IMG 21.jpg";
+import IMG22 from "../../Images/Poster/IMG 21.jpg";
+import IMG23 from "../../Images/Poster/IMG 21.jpg";
 import {Link} from "react-router-dom";
 
 export default function Seni() {
@@ -34,189 +34,189 @@ export default function Seni() {
         <Carousel>
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img1}
+                src={IMG1}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img2}
+                src={IMG2}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img3}
+                src={IMG3}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img4}
+                src={IMG5}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img5}
+                src={IMG6}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img6}
+                src={IMG7}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img7}
+                src={IMG8}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img8}
+                src={IMG9}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img9}
+                src={IMG10}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img10}
+                src={IMG11}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img11}
+                src={IMG12}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img12}
+                src={IMG14}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img13}
+                src={IMG15}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img14}
+                src={IMG16}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img15}
+                src={IMG17}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img16}
+                src={IMG18}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img17}
+                src={IMG19}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img18}
+                src={IMG20}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img19}
+                src={IMG21}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img20}
+                src={IMG22}
                 alt="Third slide"
                 />
   
             </Carousel.Item>  
             <Carousel.Item interval={2000} >
     
-                <img
+                <img 
                 className="w25 rounded mx-auto d-block img1"
-                src={img21}
+                src={IMG23}
                 alt="Third slide"
                 />
   

@@ -2,16 +2,17 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Carousel } from "react-bootstrap"
 import whatsapp from "../../Images/Icon/whatsapp.png"
-import img2 from "../../Images/Content/2.png"
-import img3 from "../../Images/Content/3.png"
-import img4 from "../../Images/Content/4.png"
-import img5 from "../../Images/Content/5.png"
-import img6 from "../../Images/Content/6.png"
-import img7 from "../../Images/Content/7.png"
-import img8 from "../../Images/Content/8.png"
-import img9 from "../../Images/Content/9.png"
-import img10 from "../../Images/Content/10.png"
-import img11 from "../../Images/Content/11.png"
+import img1 from "../../Images/Content/img1.jpg"
+import img2 from "../../Images/Content/img2.jpg"
+import img3 from "../../Images/Content/img3.jpg"
+import img4 from "../../Images/Content/img4.jpg"
+import img5 from "../../Images/Content/img5.jpg"
+import img6 from "../../Images/Content/img6.jpg"
+import img7 from "../../Images/Content/img7.jpg"
+import img8 from "../../Images/Content/img8.jpg"
+import img9 from "../../Images/Content/img9.jpg"
+import img10 from "../../Images/Content/img10.jpg"
+import img11 from "../../Images/Content/img11.jpg"
 import font from "../../Images/Content/font.png"
 import {Link} from "react-router-dom"
 
@@ -23,6 +24,15 @@ export default function Hero() {
 <section id="home"> 
 <div className="carousel-container">
 <Carousel>
+  <Carousel.Item interval={2000} >
+    
+    <img
+      className="w100 rounded mx-auto d-block img1"
+      src={img1}
+      alt="Third slide"
+    />
+  
+  </Carousel.Item>
   <Carousel.Item interval={2000} >
     
     <img

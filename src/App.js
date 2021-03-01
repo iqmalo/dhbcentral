@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer.js"
 import Loyalty from "./Components/Loyalty/Loyalty.js"
 import Pantry from "./Components/Pantry/Pantry.js"
 import Seni from "./Components/Seni/Seni.js"
+import Thanks from "./Components/Thanks/Thanks.js"
 import {BrowserRouter as Router,Route} from "react-router-dom";
 
 
@@ -28,6 +29,7 @@ function App() {
     <Route path = "/" exact component = {Contact} />
     <Route path = "/" exact component = {Loyalty} />
     <Route path="/Seni" component={Seni} />
+    <Route path="/Thanks" component={Thanks} />
     <Footer />
     </div>
     </Router>

@@ -13,7 +13,7 @@ const Loyalty = () => {
     useEffect(() => {
         const timeout = setTimeout(() => {
             setAppeared(!appeared)    
-         }, 5000);
+         }, 20000);
 
          return () => clearTimeout(timeout);
         },[]);
