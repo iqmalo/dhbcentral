@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import loyalty from "../../Images/Icon/loyalty.png"
 import exit from "../../Images/Icon/exit.png"
-import {Link} from "react-router-dom"
 
 const Loyalty = () => {
 
@@ -36,7 +35,7 @@ const Loyalty = () => {
                             <h4>Join our cult and get 20% off on your first purchase!</h4>
                             </div>
                    
-                        <form method="POST" name = "cult-form" data-netlify ="true">
+                        <form method="POST" name = "cult-form" data-netlify ="true" action = "/Thanks">
                         <input type="hidden" name="form-name" value="cult-form"/>
                             <div className="name-wrapper">
                                 <label htmlFor="">Name</label>
@@ -47,9 +46,7 @@ const Loyalty = () => {
                                 <input className="input-email" type="email" placeholder="elonmusk@dhbcentral.com" name = "email" />
                             </div>
                             <div className="btn-cta">
-                            <Link to= "/Thanks">
                                 <button type="submit">Submit!</button>
-                            </Link>
                             </div>
                         </form>
                     </div>
