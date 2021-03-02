@@ -35,7 +35,7 @@ const Loyalty = () => {
                             <h4>Join our cult and get 20% off on your first purchase!</h4>
                             </div>
                    
-                        <form method="POST" name = "cult-form" data-netlify ="true">
+                        <form method="POST" name = "cult-form" data-netlify ="true" action = "/Thanks">
                         <input type="hidden" name="form-name" value="cult-form"/>
                             <div className="name-wrapper">
                                 <label htmlFor="">Name</label>
