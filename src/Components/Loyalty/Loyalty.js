@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import loyalty from "../../Images/Icon/loyalty.png"
 import exit from "../../Images/Icon/exit.png"
+import {Link} from "react-router-dom"
 
 const Loyalty = () => {
 
@@ -46,7 +47,9 @@ const Loyalty = () => {
                                 <input className="input-email" type="email" placeholder="elonmusk@dhbcentral.com" name = "email" />
                             </div>
                             <div className="btn-cta">
+                            <Link to="/Thanks">
                                 <button type="submit">Submit!</button>
+                            </Link>
                             </div>
                         </form>
                     </div>
