@@ -47,9 +47,9 @@ const Loyalty = () => {
                                 <input className="input-email" type="email" placeholder="elonmusk@dhbcentral.com" name = "email" />
                             </div>
                             <div className="btn-cta">
-                            <Link to="/Thanks">
+                            {/* <Link to="/Thanks"> */}
                                 <button type="submit">Submit!</button>
-                            </Link>
+                            {/* </Link> */}
                             </div>
                         </form>
                     </div>
