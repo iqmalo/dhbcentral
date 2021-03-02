@@ -6,7 +6,7 @@ const Contact = () => {
         <section id="contact">
             <div className="contact-container">
             <h2>HUBUNGI &nbsp;&nbsp; KAMI!</h2>
-            <h5>If you want to collaborate or tell us that our food is mediocre, fell free to contact us!</h5>
+            <h5>If you want to collaborate or tell us that our food is mediocre, feel free to contact us!</h5>
                 <div className="contact-wrapper">
                     <div className="contact-card">
                         <form name= "form-contact" method="POST" data-netlify="true">
