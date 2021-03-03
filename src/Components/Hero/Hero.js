@@ -14,6 +14,7 @@ import img8 from "../../Images/Content/img8.jpg"
 import img9 from "../../Images/Content/img9.jpg"
 import img10 from "../../Images/Content/img10.jpg"
 import img11 from "../../Images/Content/img11.jpg"
+import img12 from "../../Images/Content/img12.jpg"
 import font from "../../Images/Content/font.png"
 import {Link} from "react-router-dom"
 
@@ -25,6 +26,15 @@ export default function Hero() {
 <section id="home"> 
 <div className="carousel-container">
 <Carousel>
+  <Carousel.Item interval={2000} >
+    
+    <img
+      className="w100 rounded mx-auto d-block img1"
+      src={img12}
+      alt="Third slide"
+    />
+  
+  </Carousel.Item>
   <Carousel.Item interval={2000} >
     
     <img

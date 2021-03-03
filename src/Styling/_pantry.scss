@@ -1,7 +1,7 @@
 .pantry-container{
     height: auto;
     width: 100%;
-    margin: 10% 0;
+    margin: 30% 0 10% 0;
     h4{
         font-family: 'Monoton', cursive;
         letter-spacing: 5px;
@@ -71,6 +71,35 @@
 
 @media screen and (min-width: 1366px){
     .pantry-container{
+        margin-top: 50%;
+        h4{
+            font-size: 5rem;
+        }
+    .img-wrapper{
+        margin: 0;
+    img{
+        width: 800px;
+    }
+}
+.btn-container{
+    .btn-wrapper{
+        a{
+            .btn-cta{
+        .whatsapp{
+            width: 50px;
+            height: 50px;
+            margin-bottom: 2%;
+            margin-right: 20px;
+        }
+    }
+    }
+}
+}
+}
+}
+@media screen and (min-width: 1440px){
+    .pantry-container{
+        margin-top: 65%;
         h4{
             font-size: 5rem;
         }

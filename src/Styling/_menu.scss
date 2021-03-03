@@ -42,10 +42,9 @@
     .btn-container-menu{
         display: flex;
         justify-content: center;
-        height: 1850px;
+        height: 2150px;
         align-items: flex-end;
     .btn-wrapper-menu{
-        margin-bottom: 60px;
             .btn-cta-menu{
                 border-radius: 10px;
                 background-color: #e25a1f;
@@ -73,7 +72,7 @@
 
 @media screen and (min-width: 720px){
     .menu-container{
-        height: 120vh;
+        height: 150vh;
         h4{
             font-size: 2.5rem;
         }
@@ -97,7 +96,7 @@
         height: 40px;
         align-items: flex-end;
         position: relative;
-        top: 780px;
+        top: 1120px;
     .btn-wrapper-menu{
         margin-bottom: 30px;
             .btn-cta-menu{
@@ -129,7 +128,7 @@
         visibility: hidden;
       }
     .menu-container{
-        height: 90vh;
+        height: 110vh;
     h4{
         font-size: 2.5rem;
     }
@@ -150,7 +149,7 @@
 @media screen and (min-width: 1366px){
     .menu-container{
         position: relative;
-        height: auto;
+        height: 100vh;
         display: inline-grid;
         margin-bottom: 15%;
     h4{
