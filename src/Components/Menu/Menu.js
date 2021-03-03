@@ -21,9 +21,9 @@ const Menu = () => {
                         </div>
                     </div>
                     
-                    <div className="btn-container">
-                    <div className="btn-wrapper">
-                    <a href="https://wa.link/buyo4d"><button className="btn-cta"><img className= "whatsapp"  src= {whatsapp} alt=""/> Order Now!</button></a>
+                    <div className="btn-container-menu">
+                    <div className="btn-wrapper-menu">
+                    <a href="https://wa.link/buyo4d"><button className="btn-cta-menu"><img className= "whatsapp"  src= {whatsapp} alt=""/> Order Now!</button></a>
                     </div>
                     </div>
                 </div>

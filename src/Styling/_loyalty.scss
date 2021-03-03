@@ -48,55 +48,40 @@
             }
         }
         .loyalty-form{
-            background-color: rgb(211, 211, 211);
+            background-color: rgb(226, 226, 226);
             height: auto;
             width: 90vw;
             border-radius: 10px;
-            padding: 60px 30px;
+            padding: 20% 5% 5% 5%;
             top: 35%;
             position: absolute;
-            .name-wrapper{
-                label{
-                    margin-right: 4%;
-                }
-                .input-name{
-                    width: 100%;
-                    padding-left: 10px;
-                }
-                }
-            .email-wrapper{
-                label{
-                    margin-right: 3%;
-                    padding-top: 10px;
-                }
-                .input-email{
-                    width: 100%;
-                    padding-left: 10px;
-                }
-            }
-            .btn-cta{
+            h1{
                 text-align: center;
-                margin-top: 2rem;
-                button{
-                    background-color: $primary;
-                    font-size: 1.2rem;
-                    border-radius: 10px;
-                    width: 40%;
-
-                    &:hover{
-                        filter: brightness(2);
-                    }
+                color: rgba(241, 136, 37, 0.959);
+                margin: 15% 0 15% 0;
+                font-weight: bolder;
+            }
+            h3{
+                text-align: center;
+            }
+            h5{
+                text-align: center;
+            }
+            h6{
+                span{
+                    font-weight: bolder;
                 }
             }
-        }
-        }
+
     }
+}
+}
 
 @media screen and (max-height: 800px){
     .loyalty-container{
         .loyalty-wrapper{
             .loyalty-form{
-                top: 40%;
+                top: 38%;
             }
         }
     }
@@ -108,6 +93,23 @@
             .loyalty-form{
                 top: 40%;
                 height: 55vh;
+                h1{
+                    font-size: 2rem;
+                    margin: 10% 0;
+                }
+                h3{
+                    font-size: 1.5rem;
+                    padding-bottom: 5%;
+                }
+                h5{
+                    font-size: 1rem;
+                }
+                h6{
+                    font-size: 0.8rem;
+                    span{
+                        font-weight: bolder;
+                    }
+                }
             }
         }
     }
@@ -119,14 +121,25 @@
             .loyalty-form{
                 height: 55vh;
                 top: 38%;
-            
-            .btn-cta{
-                margin-top: 15px;
-                button{
-                    width: auto;
+                h1{
+                    font-size: 2rem;
+                    margin: 6% 0;
                 }
-            }
-        }
+                h3{
+                    font-size: 1.5rem;
+                    padding-bottom: 5%;
+                }
+                h5{
+                    font-size: 1rem;
+                }
+                h6{
+                    font-size: 0.8rem;
+                    span{
+                        font-weight: bolder;
+                    }
+                }
+
+                }
     }
 }  
 }
@@ -137,6 +150,23 @@
         .loyalty-wrapper{
             .loyalty-form{
                 top: 53%;
+                padding: 5% 5%;
+                h1{
+                    font-size: 5rem;
+                    margin: 5% 0;
+                }
+                h3{
+                    font-size: 3rem;
+                    margin: 0;
+                }
+                h5{
+                    font-size: 2rem;
+                }
+                h6{
+                    span{
+                        font-weight: bolder;
+                    }
+                }
                 }
             }
         }
@@ -146,10 +176,7 @@
         .loyalty-container{
             .loyalty-wrapper{
                 .loyalty-form{
-                    top: 52%;
-                    .font-wrapper{
-                        text-align: center;
-                    }
+                    top: 55%;
                     }
                 }
             }
@@ -173,23 +200,21 @@
                     .loyalty-form{
                         width: 40%;
                         right: 10%;
-                        .name-wrapper{
-                            label{
-                            }
-                            .input-name{
-                            }
-                            }
-                        .email-wrapper{
-                            label{
-                            }
-                            .input-email{
-                            }
+                        h1{
+                            font-size: 2rem;
+                            margin: 5% 0;
                         }
-                        .btn-cta{
-                            button{
-            
-                                &:hover{
-                                }
+                        h3{
+                            font-size: 2rem;
+                            padding-bottom: 5%;
+                        }
+                        h5{
+                            font-size: 1rem;
+                        }
+                        h6{
+                            font-size: 0.8rem;
+                            span{
+                                font-weight: bolder;
                             }
                         }
                     }

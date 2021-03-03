@@ -1,8 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Carousel } from "react-bootstrap"
-
-import adib from "../../Images/Reviews/adib.PNG"
 import stars from "../../Images/Icon/stars.png"
 import quote from "../../Images/Icon/quote.png"
 

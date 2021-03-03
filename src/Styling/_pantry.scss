@@ -13,7 +13,7 @@
         img{
             width: 300px;
             border-radius: 30px;
-            box-shadow: 5px 10px 10px black;
+            box-shadow: 0 5px 10px black;
         }
     }
     .btn-container{
@@ -21,12 +21,13 @@
         justify-content: center;
         align-items: flex-end;
     .btn-wrapper{
+        margin-top: 5%;
             .btn-cta{
                 border-radius: 10px;
                 background-color: #e25a1f;
                 padding: 2px 20px;
                 font-size: 1rem;
-                box-shadow: 10px 5px 5px rgb(44, 44, 44);
+                box-shadow: 0 5px 15px rgb(44, 44, 44);
                 color: white;
         
                 &:hover{
@@ -58,12 +59,19 @@
         width: 500px;
     }
 }
+.btn-container{
+    .btn-wrapper{
+        .btn-cta{
+            font-size: 1.5rem;
+            padding: 2px 20px;
+        }
+    }
+}
 }
 }
 
 @media screen and (min-width: 1366px){
     .pantry-container{
-        margin-top: 20%;
         h4{
             font-size: 5rem;
         }
@@ -72,6 +80,20 @@
     img{
         width: 800px;
     }
+}
+.btn-container{
+    .btn-wrapper{
+        a{
+            .btn-cta{
+        .whatsapp{
+            width: 50px;
+            height: 50px;
+            margin-bottom: 2%;
+            margin-right: 20px;
+        }
+    }
+    }
+}
 }
 }
 }

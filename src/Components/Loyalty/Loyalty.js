@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import loyalty from "../../Images/Icon/loyalty.png"
 import exit from "../../Images/Icon/exit.png"
-// import {Link} from "react-router-dom"
 
 const Loyalty = () => {
 
@@ -19,6 +18,16 @@ const Loyalty = () => {
          return () => clearTimeout(timeout);
         },[]);
 
+        function random(length) {
+            var result           = '';
+            var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            var charactersLength = characters.length;
+            for ( var i = 0; i < length; i++ ) {
+               result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            return result;
+         }
+
     return (
         <>
         {!appeared && (
@@ -32,29 +41,15 @@ const Loyalty = () => {
                         <img src={loyalty} alt=""/>
                     </div>
                     <div className="loyalty-form">
-                    <div className="font-wrapper">
-                            <h4>Join our cult and get 20% off on your first purchase!</h4>
-                            </div>
-                   
-                        <form method="post" name = "cult-form" data-netlify ="true" action="/Thanks">
-                        <input type="hidden" name="form-name" value="cult-form"/>
-                            <div className="name-wrapper">
-                                <label htmlFor="">Name</label>
-                                <input className="input-name" type="text" placeholder="Elon Musk" name="name"/>
-                            </div>
-                            <div className="email-wrapper">
-                            <label htmlFor="">E-mail</label>
-                                <input className="input-email" type="email" placeholder="elonmusk@dhbcentral.com" name = "email" />
-                            </div>
-                            <div className="btn-cta">
-                            {/* <Link to="/Thanks"> */}
-                                <button type="submit">Submit!</button>
-                            {/* </Link> */}
-                            </div>
-                        </form>
+                            <h3>Claim your 20% OFF</h3>
+                            <h5>Use the Code below to claim your reward!</h5>
+                            <h1>{random(8)}</h1>
+                            <h6>*valid from <span>4/3/2021 until 11/3/2021</span></h6>
+                            <h6>*applicable for dine-in only</h6>
+                            <h6>*please screenshot this page and show it to use during your purchase!</h6>
+                    </div>
                     </div>
                 </div>
-            </div>
             </section>
             )}
         </>

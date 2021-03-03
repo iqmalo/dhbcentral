@@ -39,19 +39,18 @@
         }
         }
     
-    .btn-container{
+    .btn-container-menu{
         display: flex;
         justify-content: center;
         height: 1850px;
         align-items: flex-end;
-    .btn-wrapper{
+    .btn-wrapper-menu{
         margin-bottom: 60px;
-            .btn-cta{
+            .btn-cta-menu{
                 border-radius: 10px;
                 background-color: #e25a1f;
                 padding: 2px 20px;
                 font-size: 1rem;
-                box-shadow: 10px 5px 5px rgb(44, 44, 44);
                 color: white;
         
                 &:hover{
@@ -92,16 +91,16 @@
             }
         }
     }
-    .btn-container{
+    .btn-container-menu{
         display: flex;
         justify-content: center;
         height: 40px;
         align-items: flex-end;
         position: relative;
         top: 780px;
-    .btn-wrapper{
+    .btn-wrapper-menu{
         margin-bottom: 30px;
-            .btn-cta{
+            .btn-cta-menu{
                 border-radius: 10px;
                 padding: 2px 20px;
                 font-size: 1.5rem !important;
@@ -134,9 +133,9 @@
     h4{
         font-size: 2.5rem;
     }
-    .btn-container{
-    .btn-wrapper{
-        .btn-cta{
+    .btn-container-menu{
+    .btn-wrapper-menu{
+        .btn-cta-menu{
         font-size: 1.5rem !important;
     }
     }
@@ -144,73 +143,18 @@
     }
 }
 
-// @media screen and (min-width: 1100px) and (min-height: 600px){
-//     .menu-container{
-//         position: relative;
-//         height: 120vh;
-//     h4{
-//         font-size: 80px;
-//         margin-top: -450px;
-//     }
-//     .menu-wrapper{
-//         .menu-items{
-//             display: grid;
-//             grid-template-columns: 1fr 1fr 1fr;    
-//             .img-menu{
-//                 height: 300px;
-//                 width: 300px;
-//                 margin: 20px 0;
-//                 border-radius: 20px;
-//             }
-//         }
-//     }
-//     .btn-container{
-//         height: 80px !important;
-//         top: 400px;
-//     .btn-wrapper{
-//         .btn-cta{
-//         font-size: 2.5rem !important;
-//         padding: 0 20px;
-//         margin-bottom: 10px;
-//     }
-//     }
-//     }    
-//     }
-// }
 
-
-// @media screen and (min-width: 1366px){
-//     #menu::before {
-//         content: '';
-//         display: block;
-//         height:      1px;
-//         margin-top: -1px;
-//         visibility: hidden;
-//       }
-//     .menu-container{
-//         position: relative;
-//         top: 450px;
-//         height: 1000px;
-//         .btn-container{
-//             top: 420px;
-//             .btn-wrapper{
-//                 margin-bottom: 5vh;
-//             }
-//         } 
-//     }
-//     }
 
 
 
 @media screen and (min-width: 1366px){
     .menu-container{
         position: relative;
-        height: 50vh;
+        height: auto;
         display: inline-grid;
-        margin-bottom: 50%;
+        margin-bottom: 15%;
     h4{
         font-size: 5rem;
-        margin-top: 10px;
         padding: 0;
     }
     .menu-wrapper{
@@ -220,28 +164,36 @@
             .img-menu{
                 height: 300px;
                 width: 300px;
-                margin: 20px 0;
                 border-radius: 20px;
             }
         }
     }
-    .btn-container{
+
+  
+    .btn-container-menu{
         height: auto !important;
         width: 100%;
-        margin-top: 20%;
-        position: absolute;
         display: flex;
         justify-content: center;
-    .btn-wrapper{
+        padding: 0;
+        margin: 0;
+        transform: translateY(-370px);
+        
+    .btn-wrapper-menu{
         margin: 0;
         a{
-            .btn-cta{
+            .btn-cta-menu{
             font-size: 2.5rem !important;
+            .whatsapp{
+                width: 50px;
+                height: 50px;
+                margin-bottom: 2%;
             }
+            }
+        }
+}
+}
     }
-}
-}
-    }    
     }
 
 
@@ -254,19 +206,22 @@
     @media screen and (min-width: 1800px){
         .menu-container{
             height: 20vh;
-            .btn-container{
+            .btn-container-menu{
                 height: auto !important;
                 width: 100%;
                 position: absolute;
                 display: flex;
                 justify-content: center;
                 margin-top: 10%;
-            .btn-wrapper{
-                a{
-                    .btn-cta{
+            .btn-wrapper-menu{
+                margin-top: 5%;
+                    .btn-cta-menu{
                     font-size: 2.5rem !important;
+                    .whatsapp{
+                        width: 50px;
+                        height: 50px !important;
                     }
-            }
+                    }
         }
         }
         }
