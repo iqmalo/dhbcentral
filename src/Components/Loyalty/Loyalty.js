@@ -46,7 +46,7 @@ const Loyalty = () => {
                             <h1>{random(8)}</h1>
                             <h6>*valid from <span>4/3/2021 until 11/3/2021</span></h6>
                             <h6>*applicable for dine-in only</h6>
-                            <h6>*please screenshot this page and show it to use during your purchase!</h6>
+                            <h6>*please screenshot this page and show it to us during your purchase!</h6>
                     </div>
                     </div>
                 </div>

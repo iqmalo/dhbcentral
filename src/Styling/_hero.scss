@@ -46,8 +46,8 @@ text-align: center;
         color: white;
         text-align: left;
         line-height: 1.2;
-        padding: 0 3%;
         width: 90%;
+        padding-left: 10px;
 
         &:hover{
             background-color:  #ffdf4e;
@@ -81,6 +81,7 @@ text-align: center;
         padding: 0 5%;
         line-height: 1.2;
         width: 90%;
+        background-color: white;
 
         &:hover{
             background-color: #e25a1f;
