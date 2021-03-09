@@ -69,9 +69,8 @@ text-align: center;
     }
 }
 .btn-wrapper-3{
-float: right ;
-width: 50%;
 text-align: center;
+height: auto;
     .btn-cta-3{
         border-radius: 10px;
         font-size: 0.9rem;
@@ -79,9 +78,9 @@ text-align: center;
         border:2px solid #e25a1f;
         color: black;
         padding: 0 5%;
-        line-height: 1.2;
         width: 90%;
         background-color: white;
+        height: 3rem;
 
         &:hover{
             background-color: #e25a1f;
@@ -91,8 +90,6 @@ text-align: center;
             width: 25px;
             height: 25px;
             border-radius: 50%;
-            float: left;
-            margin-top: 3%;
             margin-right: 5%;
         }
     }           
@@ -139,11 +136,10 @@ text-align: center;
 .btn-wrapper-3{
     .btn-cta-3{
         font-size: 1.5rem !important;
-        padding: 0 12%;
+        height: 4rem;
         .beep{
             width: 50px;
             height: 50px;
-            margin-top: 1%;
         }
 }
 }
@@ -168,7 +164,7 @@ text-align: center;
  } 
  .font-container{
     top: -20%;
-    height: 25vh;
+    height: 35vh;
  }
  .btn-wrapper{
  .btn-cta{
@@ -215,7 +211,7 @@ text-align: center;
         justify-content: center;
     .btn-cta-3{
         margin: 0 !important;
-        width:450px !important;
+        width:850px !important;
         }
     }
     .btn-wrapper-2{
@@ -245,7 +241,7 @@ text-align: center;
         }
     }
     .btn-wrapper-2{
-        margin-top: 10% !important;
+        margin-top: 5% !important;
     .btn-cta-2{
         margin: 0;
         padding: 0 2%;

@@ -133,9 +133,6 @@ export default function Hero() {
 <img className = "font-dhb" src={font} alt=""/>
 </div> 
 <h5>They say you are what you eat, so why don’t you be a DHB?</h5>
-<div className="btn-wrapper">
-<a href="https://wa.link/buyo4d"><button className="btn-cta"><img className= "whatsapp"  src= {whatsapp} alt=""/> Order through Whatsapp Now!</button></a>
-</div>
 <div className="btn-wrapper-3">
 <a href="https://dhbcentral.beepit.com/ordering/?h=U2FsdGVkX1%2BPcBfxtRbd6hTDdsPFjkfW81PqC04Np%2FT1n74x5XpH4PQuyGDOhqDD&type=delivery&source=https%3A%2F%2Fbeepit.com%2Fsearch"><button className="btn-cta-3"><img className = "beep" src={beep} alt=""/> Order through BeepIt Now!</button></a>
 </div>
