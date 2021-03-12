@@ -25,9 +25,11 @@ const Contact = () => {
                             </div>
                             <div className="btn-cta">
                                 <button type="submit">Submit!</button>
-                            </div>
-                
+                            </div>                
                         </form>
+                        <div className="btn-cta-2">
+                            <a href="https://wa.link/buyo4d"><button>Whatsapp us instead!</button></a>
+                            </div>
                     </div>
                 </div>
             </div>

@@ -75,15 +75,37 @@ $primary: #e2bb1f;
                 }
             }
             .btn-cta{
-                display: flex;
+                float: left;
                 justify-content: center;
                 align-items: center;
                 height: 60px;
+                margin-top: 5%;
+                margin-left: 5%;
                 button{
                     background-color: yellow;
                     width: 100px;
                     border-radius: 10px;
                     font-weight: bolder;
+
+                    &:hover{
+                        background-color: $primary;
+                    }
+                }
+            }
+            .btn-cta-2{
+                float: right;
+                justify-content: center;
+                align-items: center;
+                height: 60px;
+                margin-top: 2%;
+                margin-right: 5%;
+                button{
+                    background-color: rgb(121, 250, 121);
+                    width: 100px;
+                    border-radius: 10px;
+                    font-weight: bolder;
+                    border: 1px solid yellow;
+                    padding: 0 5%;
 
                     &:hover{
                         background-color: $primary;

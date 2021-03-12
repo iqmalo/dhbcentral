@@ -44,7 +44,7 @@ const Loyalty = () => {
                             <h3>Claim your 20% OFF</h3>
                             <h5>Use the Code below to claim your reward!</h5>
                             <h1>{random(8)}</h1>
-                            <h6>*valid from <span>4/3/2021 until 11/3/2021</span></h6>
+                            <h6>*valid from <span>12/3/2021 until 31/3/2021</span></h6>
                             <h6>*applicable for dine-in only</h6>
                             <h6>*please screenshot this page and show it to us during your purchase!</h6>
                     </div>
