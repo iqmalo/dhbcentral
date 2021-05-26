@@ -27,9 +27,9 @@ const Navbar = () => {
           <div className="menu-container">
             <a href="#home" onClick={handleClick}>Home</a>
             <a href="#story" onClick={handleClick}>Cerita Kami Bertiga</a>
-            <a href="#menu" onClick={handleClick}>Menu</a>
+            {/* <a href="#menu" onClick={handleClick}>Menu</a> */}
             <a href="#reviews" onClick={handleClick}>Suara Komuniti</a>
-            <a href="#findus" onClick={handleClick}>Manaa?</a>
+            {/* <a href="#findus" onClick={handleClick}>Manaa?</a> */}
             <a href="#contact" onClick={handleClick}>Hubungi Kami!</a>
           </div>
           </div>
@@ -40,9 +40,9 @@ const Navbar = () => {
             <div className="link-holder">
             <a href="#home">Home</a>
             <a href="#story">Cerita Kami Bertiga</a>
-            <a href="#menu">Menu</a>
+            {/* <a href="#menu">Menu</a> */}
             <a href="#reviews">Suara Komuniti</a>
-            <a href="#findus">Manaa?</a>
+            {/* <a href="#findus">Manaa?</a> */}
             <a href="#contact">Hubungi Kami!</a>
             </div>
           </div>

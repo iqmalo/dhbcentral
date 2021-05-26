@@ -20,12 +20,12 @@ function App() {
     <Navbar />
     <Route path = "/" exact component = {Hero} />
     <Route path = "/" exact component = {Story} />
-    <Route path = "/" exact component = {Menu} />
-    <Route path = "/" exact component = {Pantry} />   
+    {/* <Route path = "/" exact component = {Menu} /> */}
+    {/* <Route path = "/" exact component = {Pantry} />    */}
     <Route path = "/" exact component = {Reviews} /> 
-    <Route path = "/" exact component = {FindUs} />  
+    {/* <Route path = "/" exact component = {FindUs} />   */}
     <Route path = "/" exact component = {Contact} />
-    <Route path = "/" exact component = {Loyalty} />
+    {/* <Route path = "/" exact component = {Loyalty} /> */}
     <Route path="/Seni" component={Seni} />
     <Footer />
     </div>

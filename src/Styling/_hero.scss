@@ -11,7 +11,7 @@ $primary: #e2bb1f;
 }
 
 .font-container{
-    height: auto;
+    height: 20vh;
     width: auto;
     position: relative;
     top: 50px;
@@ -81,6 +81,7 @@ height: auto;
         width: 90%;
         background-color: white;
         height: 3rem;
+        margin-top: 10%;
 
         &:hover{
             background-color: #e25a1f;
@@ -97,7 +98,7 @@ height: auto;
 
 .btn-wrapper-2{
     text-align: center;
-    margin-top: 25%;
+    margin-top: 10%;
     .btn-cta-2{
         background-color: $primary;
         border-radius: 5px;
@@ -153,7 +154,7 @@ height: auto;
 @media screen and (min-width: 1024px) {
     .carousel-container{
         position: relative;
-        height: auto;
+        height: 40vh;
         width: 100%;
         top: 0;
     
@@ -226,7 +227,7 @@ height: auto;
 @media screen and (min-width: 1440px){
     .font-container{
         position: relative;
-        height: 60vh;
+        height: 20vh;
         h5{
             padding: 0 100px 100px 100px;
         }
@@ -236,8 +237,8 @@ height: auto;
         }
     }
     .btn-wrapper-3{
+        margin-top: 2%; 
         .btn-cta-3{
-            padding: 0 10%;
         }
     }
     .btn-wrapper-2{

@@ -129,7 +129,12 @@ $primary: #e2bb1f;
             padding: 0 0 50px 0;
             height: 50vh;
             .btn-cta{
-                transform: translateY(-10px);
+                transform: translateY(-20px);
+            }
+        }
+        .btn-cta-2{
+            button{
+                transform: translateY(-15px);
             }
         }
     }
@@ -157,7 +162,12 @@ $primary: #e2bb1f;
             button{
                 width: 350px;
                 font-size: 1.5rem;
-                transform: translateY(10px);
+                transform: translateY(-15px);
+            }
+        }
+        .btn-cta-2{
+            button{
+                transform: translateY(-10px);
             }
         }
     }
@@ -166,9 +176,9 @@ $primary: #e2bb1f;
 @media screen and (min-width: 1366px){
     .contact-container{
         position: relative;
-        float: right;
+        // float: right;
         height: auto;
-        width: 50%;
+        width: 100%;
         padding-bottom: 30px;
         h2{
             font-size: 5rem;
@@ -180,12 +190,19 @@ $primary: #e2bb1f;
             text-align: center;
         }
         .contact-wrapper{
-            height: auto;
+            height: 60vh;
             margin-top: -20px;
             .contact-card{
                 .btn-cta{
                     button{
                         font-weight: lighter;
+                        transform: translateY(-30px);
+                    }
+                }
+                .btn-cta-2{
+                    button{
+                        font-weight: lighter;
+                        transform: translateY(-18px);
                     }
                 }
             }
@@ -197,9 +214,9 @@ $primary: #e2bb1f;
 
     .contact-container{
         position: relative;
-        float: right;
+        // float: right;
         height: 100%;
-        width: 50%;
+        width: 100%;
         padding-bottom: 100px;
         h2{
             font-size: 5rem;
@@ -211,11 +228,18 @@ $primary: #e2bb1f;
             text-align: center;
         }
         .contact-wrapper{
-            height: 60vh;
+            height: 65vh;
             .contact-card{
                 .btn-cta{
                     button{
                         font-weight: lighter;
+                        transform: translateY(-50px);
+                    }
+                }
+                .btn-cta-2{
+                    button{
+                        font-weight: lighter;
+                        transform: translateY(-25px);
                     }
                 }
             }
