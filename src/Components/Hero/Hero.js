@@ -18,6 +18,7 @@ import { Carousel } from "react-bootstrap"
 import img14 from "../../Images/Content/img14.jpg"
 import img15 from "../../Images/Content/img15.jpg"
 import img16 from "../../Images/Content/img16.jpg"
+import img17 from "../../Images/Content/img17.png"
 // import font from "../../Images/Content/font.png"
 import {Link} from "react-router-dom"
 
@@ -155,7 +156,7 @@ export default function Hero() {
 </div>  */}
 {/* <h5>They say you are what you eat, so why don’t you be a DHB?</h5> */}
 <div className="btn-wrapper-3">
-<a href="https://dhbcentral.storehub.me/"><button className="btn-cta-3">Order Now!</button></a>
+<a href="https://shopee.com.my/decemberhairyboys"><button className="btn-cta-3"><img className="shopee" src={img17} alt=""/>Order Now through Shopee!<img className="shopee" src={img17} alt=""/></button></a>
 </div>
 <div className="btn-wrapper-2">
 <Link to="seni">
